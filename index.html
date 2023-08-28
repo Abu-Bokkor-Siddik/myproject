@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <h1 class="text-center text-4xl">phone hunter api</h1>
+
+    <section class="flex justify-center lg:my-10">
+
+       
+
+        <input id="input1" type="text" placeholder="Search...." class="input input-bordered input-info w-full max-w-xs" />
+
+        <button  id="search1" onclick="search()" class="btn btn-accent">Search</button>
+    </section>
+
+    <main>
+        <section>
+
+
+
+
+            <div class="text-center">
+                <span  id="speaner" class=" hidden loading loading-spinner loading-lg"></span>
+            </div>
+
+
+            <div id="divid" class="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:mx-40">
+               
+
+            </div>
+            <section>
+                <div class="text-center my-24">
+
+                    <button onclick="showbtn11()" id="showbtn"  class="btn btn-accent hidden">Show-btn All</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="./mobail.js"></script>
+</body>
+</html>
